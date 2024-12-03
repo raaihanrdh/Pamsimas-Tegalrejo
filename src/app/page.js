@@ -3,7 +3,7 @@ import { FiAlertCircle, FiFileText, FiSearch, FiLogIn } from "react-icons/fi";
 
 const LandingPage = () => {
   return (
-    <div className="min-h-screen  bg-gradient-to-br from-amber-600 via-amber-800 to-amber-600 flex flex-col items-center justify-center text-white relative">
+    <div className="min-h-screen  bg-gradient-to-br from-amber-600 via-amber-700 to-amber-600 flex flex-col items-center justify-center text-white relative">
       {/* Header */}
       <header className="absolute top-0 left-0 w-full flex justify-between items-center p-6">
         <h1 className="text-2xl font-bold">PAMSIMAS</h1>
@@ -18,7 +18,7 @@ const LandingPage = () => {
 
       {/* Hero Section */}
       <div className="text-center mt-20 px-6">
-        <div className="bg-amber-800 p-8 rounded-xl shadow-2xl max-w-3xl mx-auto">
+        <div className="bg-amber-900 p-8 rounded-xl shadow-2xl max-w-3xl mx-auto">
           <div className="flex justify-center mb-6">
             <img
               src="/logolerep.png"
@@ -26,13 +26,14 @@ const LandingPage = () => {
               className="w-50 h-20"
             />
           </div>
-          <h1 className="text-4xl font-extrabold mb-4 tracking-tight">
+          <h1 className="text-3xl font-extrabold tracking-tight">
             Selamat Datang di
-            <span className="text-amber-800"> PAMSIMAS</span>
           </h1>
+          <div className="text-3xl font-extrabold mb-5 tracking-tight text-amber-500">
+            PAMSIMAS Tegalrejo
+          </div>
           <p className="text-lg font-light max-w-md mx-auto mb-6">
-            Platform untuk mengelola kebutuhan air bersih desa Anda dengan mudah
-            dan cepat.
+            Platform untuk mengelola kebutuhan air bersih desa
           </p>
 
           {/* Button Section */}

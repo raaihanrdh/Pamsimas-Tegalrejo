@@ -41,7 +41,7 @@ const QRModal = ({ qrCode, onClose }) => {
           {/* Tombol Download QR Code */}
           <button
             onClick={handleDownload}
-            className="py-2 px-4 text-white bg-blue-500 rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="py-2 px-4 text-white bg-amber-500 rounded-md hover:bg-amber-700 focus:outline-none focus:ring-2 focus:ring-amber-500"
           >
             Download QR
           </button>

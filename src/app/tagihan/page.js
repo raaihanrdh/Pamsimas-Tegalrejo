@@ -513,7 +513,7 @@ const TagihanBulanan = () => {
         <div className="flex-">
           {countTagihan == 0 && (
             <button
-              className=" bg-blue-500 px-3 py-2 rounded-lg text-white"
+              className=" bg-amber-500 px-3 py-2 rounded-lg text-white"
               onClick={handleGenerateTagihan}
             >
               + Generate
@@ -527,7 +527,7 @@ const TagihanBulanan = () => {
           <button
             className={`py-2 px-4 mr-2 ${
               activeTab === "tab1"
-                ? "border-b-2 border-blue-500 text-blue-500 font-semibold"
+                ? "border-b-2 border-amber-500 text-amber-500 font-semibold"
                 : "text-gray-500 hover:text-gray-700"
             }`}
             onClick={() => setActiveTab("tab1")}
@@ -537,7 +537,7 @@ const TagihanBulanan = () => {
           <button
             className={`py-2 px-4 ${
               activeTab === "tab2"
-                ? "border-b-2 border-blue-500 text-blue-500 font-semibold"
+                ? "border-b-2 border-amber-500 text-amber-500 font-semibold"
                 : "text-gray-500 hover:text-gray-700"
             }`}
             onClick={() => {
@@ -561,7 +561,7 @@ const TagihanBulanan = () => {
           {user.permissions.tagihan.read === 1 && (
             <button
               onClick={requestCameraPermission}
-              className="flex items-center bg-blue-500 px-4 py-2 rounded-lg text-white hover:bg-blue-600"
+              className="flex items-center bg-amber-500 px-4 py-2 rounded-lg text-white hover:bg-amber-600"
             >
               <FiCamera className="mr-3" /> Scan
             </button>
@@ -637,8 +637,8 @@ const TagihanBulanan = () => {
                     onClick={() => fetchTagihanByRT(rw._id)}
                     className={`px-3 py-2 rounded-lg shadow flex-grow md:flex-shrink-0 
             ${
-              rw === rw._id ? "bg-blue-500 text-white" : "bg-gray-200"
-            } hover:bg-blue-400 text-xs md:text-sm`}
+              rw === rw._id ? "bg-amber-500 text-white" : "bg-gray-200"
+            } hover:bg-amber-400 text-xs md:text-sm`}
                   >
                     {rtRwText}
                   </button>

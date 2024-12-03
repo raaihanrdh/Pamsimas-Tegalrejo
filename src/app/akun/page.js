@@ -175,7 +175,7 @@ const AdminDashboard = () => {
           {user.permissions.akun.create === 1 && (
             <button
               onClick={() => setIsAddModalOpen(true)}
-              className="bg-gradient-to-r from-blue-500 to-blue-600 text-white px-6 py-3 rounded-xl shadow-lg hover:bg-gradient-to-r hover:from-blue-600 hover:to-blue-700 transition-all ease-in-out duration-300"
+              className="bg-gradient-to-r from-amber-500 to-amber-600 text-white px-6 py-3 rounded-xl shadow-lg hover:bg-gradient-to-r hover:from-amber-600 hover:to-amber-700 transition-all ease-in-out duration-300"
             >
               + Tambah Akun
             </button>
@@ -257,7 +257,7 @@ const AdminDashboard = () => {
                       nama: e.target.value,
                     })
                   }
-                  className="w-full border border-gray-300 rounded-lg p-3 focus:ring-2 focus:ring-blue-500"
+                  className="w-full border border-gray-300 rounded-lg p-3 focus:ring-2 focus:ring-amber-500"
                   required
                 />
               </div>
@@ -274,7 +274,7 @@ const AdminDashboard = () => {
                       username: e.target.value,
                     })
                   }
-                  className="w-full border border-gray-300 rounded-lg p-3 focus:ring-2 focus:ring-blue-500"
+                  className="w-full border border-gray-300 rounded-lg p-3 focus:ring-2 focus:ring-amber-500"
                   required
                 />
               </div>
@@ -291,7 +291,7 @@ const AdminDashboard = () => {
                       password: e.target.value,
                     })
                   }
-                  className="w-full border border-gray-300 rounded-lg p-3 focus:ring-2 focus:ring-blue-500"
+                  className="w-full border border-gray-300 rounded-lg p-3 focus:ring-2 focus:ring-amber-500"
                   required
                 />
               </div>
@@ -345,7 +345,7 @@ const AdminDashboard = () => {
                 </button>
                 <button
                   type="submit"
-                  className="bg-blue-600 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-blue-700 transition-all ease-in-out duration-200"
+                  className="bg-amber-600 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-amber-700 transition-all ease-in-out duration-200"
                 >
                   Simpan
                 </button>
@@ -376,7 +376,7 @@ const AdminDashboard = () => {
                       nama: e.target.value,
                     })
                   }
-                  className="w-full border border-gray-300 rounded-lg p-3 focus:ring-2 focus:ring-blue-500"
+                  className="w-full border border-gray-300 rounded-lg p-3 focus:ring-2 focus:ring-amber-500"
                   required
                 />
               </div>
@@ -405,7 +405,7 @@ const AdminDashboard = () => {
                     })
                   }
                   placeholder="Kosongkan jika tidak ingin mengubah password"
-                  className="w-full border border-gray-300 rounded-lg p-3 focus:ring-2 focus:ring-blue-500"
+                  className="w-full border border-gray-300 rounded-lg p-3 focus:ring-2 focus:ring-amber-500"
                 />
               </div>
               <div>
@@ -458,7 +458,7 @@ const AdminDashboard = () => {
                 </button>
                 <button
                   type="submit"
-                  className="bg-blue-600 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-blue-700 transition-all ease-in-out duration-200"
+                  className="bg-amber-600 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-amber-700 transition-all ease-in-out duration-200"
                 >
                   Simpan
                 </button>

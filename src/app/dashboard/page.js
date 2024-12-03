@@ -187,7 +187,7 @@ const Page = () => {
   };
 
   return (
-    <div className="flex-1 bg-gradient-to-b from-blue-50 to-blue-100 px-4 py-6">
+    <div className="flex-1 bg-gradient-to-b from-amber-50 to-amber-100 px-4 py-6">
       <div className="flex justify-between items-center">
         <h2 className="text-3xl font-bold text-gray-800 mb-4">Dashboard</h2>
         <button

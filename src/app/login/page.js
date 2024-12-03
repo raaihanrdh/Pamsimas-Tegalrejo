@@ -99,7 +99,9 @@ const LoginPage = () => {
             alt="PAMSIMAS Logo"
             className="mx-auto w-3/4 mb-6 animate-float"
           />
-          <h1 className="text-4xl font-bold text-amber-100 mb-2">PAMSIMAS</h1>
+          <h1 className="text-4xl font-bold text-amber-100 mb-2">
+            PAMSIMAS TEGALREJO
+          </h1>
           <p className="text-white text-md max-w-md mx-auto">
             Empowering communities through efficient water management systems
           </p>

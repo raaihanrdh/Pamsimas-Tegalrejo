@@ -29,7 +29,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <link rel="icon" href="/favicon.ico" />
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-blue-100`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-amber-100`}
       >
         {children}
       </body>

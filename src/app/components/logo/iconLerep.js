@@ -13,7 +13,7 @@ const IconLerep = (props) => {
           height="1"
           patternContentUnits="objectBoundingBox"
         >
-          <rect width="1" height="1" fill="blue" /> {/* Contoh isi */}
+          <rect width="1" height="1" fill="amber" /> {/* Contoh isi */}
         </pattern>
         <pattern
           id="b"

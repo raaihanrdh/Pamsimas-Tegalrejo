@@ -260,8 +260,8 @@ export default function EditAmbangModal({
             disabled={isLoading}
             className={`py-2 px-4 rounded text-sm ${
               isLoading
-                ? "bg-blue-300 cursor-not-allowed"
-                : "bg-blue-600 hover:bg-blue-700 text-white"
+                ? "bg-amber-300 cursor-not-allowed"
+                : "bg-amber-600 hover:bg-amber-700 text-white"
             }`}
           >
             {isLoading ? "Menyimpan..." : "Simpan"}

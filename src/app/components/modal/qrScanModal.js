@@ -20,13 +20,14 @@ export default function QRScanner() {
     setCameraScanner(html5Qrcode);
 
     const qrCodeSuccessCallback = (decodedText, decodedResult) => {
-      html5Qrcode.stop()
-      .then(() => {
-        console.log("QR Code Stopped")
-      })
-      .catch((err) => {
-        console.log(err)
-      }); // Hentikan scanner setelah berhasil mendeteksi QR code
+      html5Qrcode
+        .stop()
+        .then(() => {
+          console.log("QR Code Stopped");
+        })
+        .catch((err) => {
+          console.log(err);
+        }); // Hentikan scanner setelah berhasil mendeteksi QR code
       setShowScanner(false); // Sembunyikan scanner
       setScanResult(decodedText);
     };
@@ -42,7 +43,7 @@ export default function QRScanner() {
     html5Qrcode.start(
       { facingMode: "environment" },
       config,
-      qrCodeSuccessCallback,
+      qrCodeSuccessCallback
       // qrCodeErrorCallback
     );
   };
@@ -63,19 +64,19 @@ export default function QRScanner() {
   };
 
   const stopScanner = () => {
-    if(cameraScanner) {
-    setShowScanner(false); // Menyembunyikan scanner saat berhenti
-    const html5QrCode = new Html5Qrcode("reader");
-    cameraScanner.stop();
-    setCameraError(null); // Reset error kamera
-    }    
+    if (cameraScanner) {
+      setShowScanner(false); // Menyembunyikan scanner saat berhenti
+      const html5QrCode = new Html5Qrcode("reader");
+      cameraScanner.stop();
+      setCameraError(null); // Reset error kamera
+    }
   };
 
   return (
     <div className="p-4 max-w-md mx-auto">
       <button
         onClick={requestCameraPermission}
-        className="w-full bg-blue-500 text-white p-2 rounded mb-4"
+        className="w-full bg-amber-500 text-white p-2 rounded mb-4"
       >
         Pindai Kode QR
       </button>

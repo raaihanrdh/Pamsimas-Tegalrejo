@@ -172,7 +172,7 @@ export default function Navbar({ children }) {
           isSidebarOpen ? "ml-64" : "ml-0"
         } md:ml-0`}
       >
-        <main className="bg-gradient-to-b from-blue-50 to-blue-100 md:ml-64">
+        <main className="bg-gradient-to-b from-amber-50 to-amber-100 md:ml-64">
           {children}
         </main>
       </div>

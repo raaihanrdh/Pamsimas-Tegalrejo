@@ -165,8 +165,8 @@ const ModalAllData = ({ closeModal, showGenerateExcelModal, alamatRumah }) => {
                   key={rw._id}
                   onClick={() => fetchTagihanByRT(rw._id)}
                   className={`px-3 py-2 rounded-lg shadow flex-shrink-0 flex-grow
-                  ${rw === rw.id ? "bg-blue-500 text-white" : "bg-gray-200"} 
-                  hover:bg-blue-400 text-xs sm:text-sm`}
+                  ${rw === rw.id ? "bg-amber-500 text-white" : "bg-gray-200"} 
+                  hover:bg-amber-400 text-xs sm:text-sm`}
                 >
                   {rtRwText}
                 </button>
